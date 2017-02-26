@@ -38,9 +38,8 @@ let styles = StyleSheet.create({
     container: {
         flex: 1,
         justifyContent: 'center',
-        marginTop: 50,
-        padding: 20,
         backgroundColor: '#ffffff',
+        padding: 20
     },
     title: {
         fontSize: 30,
