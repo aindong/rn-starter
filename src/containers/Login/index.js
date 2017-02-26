@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import {
     View,
     TouchableHighlight,
-    Text
+    Text,
+    StyleSheet
 } from 'react-native';
 import t from 'tcomb-form-native';
 
@@ -35,6 +36,7 @@ export default class Login extends Component {
 
 let styles = StyleSheet.create({
     container: {
+        flex: 1,
         justifyContent: 'center',
         marginTop: 50,
         padding: 20,
