@@ -1,6 +1,6 @@
 import { Navigation } from 'react-native-navigation';
 
-import Login from './containers/Login';
+import Login from './modules/Login/';
 
 export function registerScreens(store, Provider) {
     Navigation.registerComponent('Login', () => Login, store, Provider);

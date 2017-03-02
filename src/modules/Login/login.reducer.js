@@ -2,7 +2,7 @@ import {
     POST_SESSION,
     POST_SESSION_FAILED,
     POST_SESSION_SUCCESS
-} from '../actions/session';
+} from './login.actions';
 
 const initialState = {
     isAuthenticated: false,

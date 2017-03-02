@@ -1,10 +1,8 @@
 import { combineReducers } from 'redux';
-import RootNavigation from '../routes';
 
 // reducers
-import session from './session';
+import session from '../modules/Login/login.reducer';
 
 export default combineReducers({
-    navigation: (state, action) => RootNavigation.router.getStateForAction(action, state),
     session
 });
