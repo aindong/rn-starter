@@ -3057,9 +3057,21 @@ react-native-config@^0.3.1:
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/react-native-config/-/react-native-config-0.3.1.tgz#981d98eee2c4e467397cd9306f5b6958c501c6e8"
 
+react-native-controllers@^2.0.0:
+  version "2.1.4"
+  resolved "https://registry.yarnpkg.com/react-native-controllers/-/react-native-controllers-2.1.4.tgz#e944857f0b8fe81029f7f6556fe7b6c1b6062911"
+
 react-native-i18n@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/react-native-i18n/-/react-native-i18n-1.0.0.tgz#0c407d9ebb846aae1aa5e05de6503008553f02fd"
+
+react-native-navigation@^1.0.30:
+  version "1.0.30"
+  resolved "https://registry.yarnpkg.com/react-native-navigation/-/react-native-navigation-1.0.30.tgz#8e47a58f4b8a7256d912d2efe64bea78a900650e"
+  dependencies:
+    react-native-controllers "^2.0.0"
+  optionalDependencies:
+    react-redux "*"
 
 react-native-simple-store@^1.1.0:
   version "1.1.0"
@@ -3161,7 +3173,7 @@ react-proxy@^1.1.7:
     lodash "^4.6.1"
     react-deep-force-update "^1.0.0"
 
-react-redux@^5.0.3:
+react-redux@*, react-redux@^5.0.3:
   version "5.0.3"
   resolved "https://registry.yarnpkg.com/react-redux/-/react-redux-5.0.3.tgz#86c3b68d56e74294a42e2a740ab66117ef6c019f"
   dependencies:
